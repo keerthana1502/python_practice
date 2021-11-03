@@ -49,19 +49,18 @@ h = ['''
       |
 =========''']
 a=['_','_','_','_','_']
-b="mango"
+word= "mango"
 count=0
 def user():
-    global count
-    global  a
-    global h
-    c=input("Enter a char= ")
-    for i in range(len(b)):
-        if(c==b[i]):
-            a[i]=c
-            print(a)
-        elif(b[i]!=c):
-            print(h[count])
-            count+=1
-for i in range(len(b)):
-    user()
+    c=int(input("Enter a number = "))
+    for i in range (len(word)):
+        if(word[i]==c):
+           a[i]=c
+while(True):
+    if(c in word):
+        user()
+    elif(c not in word):
+        print(h[count])
+        count++1
+    elif(count<=7):
+        print("Game over")
