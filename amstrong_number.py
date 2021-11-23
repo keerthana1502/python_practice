@@ -6,8 +6,8 @@ while(num!=0):
     sum=sum+digit**3
     num //=10
 if a==sum:
-    print(a,"amstrong no")
+    print(a," is amstrong no")
 else:
-    print(a,"not amstrong no")
+    print(a,"is not amstrong no")
     
     

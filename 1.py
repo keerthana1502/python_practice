@@ -1,0 +1,2 @@
+import ab
+print(ab)

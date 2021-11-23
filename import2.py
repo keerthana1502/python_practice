@@ -1,2 +1,2 @@
-import math
-print(dir(math))
+import numpy
+print(dir(numpy))

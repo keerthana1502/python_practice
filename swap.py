@@ -1,5 +1,5 @@
-a=10
-b=20
+a=int(input("enter" ))
+b=int(input("Enter"))
 c=a
 a=b
 b=c
