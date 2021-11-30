@@ -1,4 +1,4 @@
-'''a=input("left or right?")
+a=input("left or right?")
 if(a=="right"):
     b=input("swim or wait? ")
     if(b=="swim"):
@@ -10,6 +10,6 @@ if(a=="right"):
     elif(b=="wait"):
         print("Game over")
 elif(a=="left"):
-    print("Game over")'''
+    print("Game over")
 
-print(
+

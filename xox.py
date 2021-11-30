@@ -1,3 +1,5 @@
+import  time
+start=time.time()
 count=0
 L=['①','②','③','④','⑤','⑥','⑦','⑧','⑨']
 X=['X','X','X']
@@ -42,4 +44,5 @@ while True:
 
     condition_for_winning()
     if count==1: break
-
+end=time.time()
+print("time",end-start)
