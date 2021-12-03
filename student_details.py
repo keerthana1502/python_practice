@@ -16,6 +16,5 @@ class Total(Mark):
         result=self.phy+self.chem+self.maths
         avg=(result/300)*100
         print("TOTAL = ",result)
-        print("AVG = ",avg,"%"
-                           "+")
+        print("AVG = ",avg,"%")
 obj=Total()
