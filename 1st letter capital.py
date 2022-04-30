@@ -1,4 +1,3 @@
-
 a=("ocean")
 b=a[0]
 c=ord(b)

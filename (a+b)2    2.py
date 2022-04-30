@@ -8,3 +8,4 @@ def b(b):
     return(b*b)
 def mul(a,b):
     return(2*a*b)
+formula()
